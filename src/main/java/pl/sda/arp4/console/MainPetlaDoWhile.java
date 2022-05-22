@@ -8,9 +8,11 @@ public class MainPetlaDoWhile {
         // - do while - coś musi się chociaż raz wykonać
         // - while do -
 
-
         Scanner scanner = new Scanner (System.in);
-        System.out.println("podaj liczbę:");
+
+        // Pętla dekrementująca - malejąca
+
+        System.out.println("Podaj liczbę:");
         int liczba = scanner.nextInt();
 
         do {
@@ -19,13 +21,16 @@ public class MainPetlaDoWhile {
 
         } while (liczba > 0);
 
-        System.out.println("podaj liczbę:");
+        // Pętla inkrementująca - rosnąca
+
+        System.out.println("Podaj liczbę:");
         int liczba2 = scanner.nextInt();
+        int i = 0;
 
         do {
-            System.out.println((liczba2) +" Hello World!");
-            liczba2++;
+            System.out.println((i+1) +" Hello World!");
+            i++;
 
-        } while (liczba2 < 10);
+        } while (i < liczba2);
         }
     }

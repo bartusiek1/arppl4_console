@@ -10,7 +10,10 @@ public class MainPorownajImie {
         System.out.println("Podaj swoje imię");
         String imie = scanner.next();
 
-        if (imie.equals ("Marian")) {
+        // Gdy chcemy by nie miało znaczenia czy imie zostanie wpisane z dużej czy małej litery
+        // if (imie.equalsIgnoreCase("Marian")) {
+
+        if (imie.equals("Marian")) {
             System.out.println("Siema kolego! Dawno się nie widzieliśmy!");
         } else {
             System.out.println("Witaj " + imie + "!");
